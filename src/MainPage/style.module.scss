@@ -1,0 +1,97 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 773px;
+    padding-top: 84px;
+    padding-bottom: 84px;
+    color: #232134;
+    // background-color: #F7F7F8;
+
+    .jobSearch {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        .input {
+            display: flex;
+            gap: 13px;
+            justify-content: space-between;
+
+            input {
+                width: 656px;
+            }
+        }
+
+        .blocks {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .blockVacancy {
+                display: flex;
+                gap: 362px;
+                border: 1px solid #EAEBED;
+                background-color: #FFFFFF;
+                border-radius: 12px;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                padding-left: 24px;
+
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+
+                    h2 {
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 24.2px;
+                        color: #5E96FC;
+                    }
+
+                    div {
+                        display: flex;
+                        gap: 33px;
+
+                        .salary {
+                            font-weight: 600;
+                            line-height: 20px;
+
+                        }
+
+                        .conditions {
+                            position: relative;
+
+                            &::before {
+                                content: '•';
+                                text-align: center;
+                                width: 9px;
+                                color: #7B7C88;
+                                position: absolute;
+                                left: -16.5px;
+                            }
+                        }
+                    }
+
+                    .location {
+                        position: relative;
+                        left: 28px;
+
+                        &::before {
+                            content: url(./assets/Icon.svg);
+                            position: absolute;
+                            left: -28px;
+                            top: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .pagination {
+        align-self: center;
+    }
+}

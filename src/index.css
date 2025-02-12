@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 773px;
+  font-family: Inter;
+  font-size: 16px;
+  max-width: 1440px;
+  background-color: #F7F7F8;
+}

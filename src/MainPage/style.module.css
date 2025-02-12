@@ -1,0 +1,82 @@
+@charset "UTF-8";
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  max-width: 773px;
+  padding-top: 84px;
+  padding-bottom: 84px;
+  color: #232134;
+}
+.main .jobSearch {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .jobSearch .input {
+  display: flex;
+  gap: 13px;
+  justify-content: space-between;
+}
+.main .jobSearch .input input {
+  width: 656px;
+}
+.main .jobSearch .blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main .jobSearch .blocks .blockVacancy {
+  display: flex;
+  gap: 362px;
+  border: 1px solid #EAEBED;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+}
+.main .jobSearch .blocks .blockVacancy .info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.main .jobSearch .blocks .blockVacancy .info h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #5E96FC;
+}
+.main .jobSearch .blocks .blockVacancy .info div {
+  display: flex;
+  gap: 33px;
+}
+.main .jobSearch .blocks .blockVacancy .info div .salary {
+  font-weight: 600;
+  line-height: 20px;
+}
+.main .jobSearch .blocks .blockVacancy .info div .conditions {
+  position: relative;
+}
+.main .jobSearch .blocks .blockVacancy .info div .conditions::before {
+  content: "•";
+  text-align: center;
+  width: 9px;
+  color: #7B7C88;
+  position: absolute;
+  left: -16.5px;
+}
+.main .jobSearch .blocks .blockVacancy .info .location {
+  position: relative;
+  left: 28px;
+}
+.main .jobSearch .blocks .blockVacancy .info .location::before {
+  content: url(./assets/Icon.svg);
+  position: absolute;
+  left: -28px;
+  top: 2px;
+}
+.main .pagination {
+  align-self: center;
+}/*# sourceMappingURL=style.module.css.map */
