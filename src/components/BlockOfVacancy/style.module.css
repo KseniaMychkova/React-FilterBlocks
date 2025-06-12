@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.blockVacancy {
+  display: flex;
+  gap: 362px;
+  border: 1px solid #EAEBED;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+}
+.blockVacancy .info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.blockVacancy .info h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #5E96FC;
+}
+.blockVacancy .info div {
+  display: flex;
+  gap: 33px;
+}
+.blockVacancy .info div .salary {
+  font-weight: 600;
+  line-height: 20px;
+}
+.blockVacancy .info div .conditions {
+  position: relative;
+}
+.blockVacancy .info div .conditions::before {
+  content: "•";
+  text-align: center;
+  width: 9px;
+  color: #7B7C88;
+  position: absolute;
+  left: -16.5px;
+}
+.blockVacancy .info .location {
+  position: relative;
+  left: 28px;
+}
+.blockVacancy .info .location::before {
+  content: url(../assets/Icon.svg);
+  position: absolute;
+  left: -28px;
+  top: 2px;
+}
+.blockVacancy button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 24px;
+}/*# sourceMappingURL=style.module.css.map */

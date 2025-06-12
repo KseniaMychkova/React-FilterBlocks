@@ -1,0 +1,65 @@
+  .blockVacancy {
+     display: flex;
+     gap: 362px;
+     border: 1px solid #EAEBED;
+     background-color: #FFFFFF;
+     border-radius: 12px;
+     padding: 24px;
+     position: relative;
+     
+     .info {
+         display: flex;
+         flex-direction: column;
+         gap: 12px;
+
+         h2 {
+             font-weight: 600;
+             font-size: 20px;
+             line-height: 24.2px;
+             color: #5E96FC;
+         }
+
+         div {
+             display: flex;
+             gap: 33px;
+
+             .salary {
+                 font-weight: 600;
+                 line-height: 20px;
+
+             }
+
+             .conditions {
+                 position: relative;
+
+                 &::before {
+                     content: '•';
+                     text-align: center;
+                     width: 9px;
+                     color: #7B7C88;
+                     position: absolute;
+                     left: -16.5px;
+                 }
+             }
+         }
+
+         .location {
+             position: relative;
+             left: 28px;
+
+             &::before {
+                 content: url(../assets/Icon.svg);
+                 position: absolute;
+                 left: -28px;
+                 top: 2px;
+             }
+         }
+     }
+     button {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 24px
+     }
+
+ }

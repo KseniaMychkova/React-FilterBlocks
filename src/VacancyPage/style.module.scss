@@ -1,0 +1,25 @@
+ .detailVacancy {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     margin: 0 auto;
+     max-width: 773px;
+     padding-top: 84px;
+     padding-bottom: 84px;
+     color: #232134;
+
+
+     .detail {
+         display: flex;
+         flex-direction: column;
+         gap: 20px;
+         border: 1px solid #EAEBED;
+         background-color: #FFFFFF;
+         border-radius: 12px;
+         padding: 24px;
+         .detailBlocks h2{
+            padding-bottom: 16px;
+         }
+     }
+
+ }

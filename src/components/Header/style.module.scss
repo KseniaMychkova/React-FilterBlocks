@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 280px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 162px;
+    width: 100%;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        p {
+            font-family: "Poppins", sans-serif;
+            color: #232134;
+            font-size: 24px;
+            font-weight: 600;
+
+        }
+    }
+
+    .navigation {
+        display: flex;
+        gap: 60px;
+
+        a:hover {
+            color: #5E96FC;
+            font-weight: 500;
+        }
+
+
+    }
+}
